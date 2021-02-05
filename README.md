@@ -1,6 +1,6 @@
 # Natalia's Portfolio
 
-## Mock Up
+## MockUps
 
 <img src="/mockupweb/mockuppc.jpg" alt="MockUpPc"> 
 <img src="/mockupweb/MockUpPhone.jpg" alt="MockUpPhone"> 
