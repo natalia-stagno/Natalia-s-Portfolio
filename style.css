@@ -55,7 +55,6 @@ li a:hover, .activated {
 }
 
 .stickyy {
-    display: block;
     position: -webkit-sticky;
     position: -moz-sticky;
     position: -o-sticky;
