@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+    <title>Natalia Stagno</title>
+    <link rel="icon" href="io.PNG">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="logoNatalia">
+        <img src="Natalialogo.png" alt="This is Natalia Stagno's logo">
+    </div>
+    <div class="menuNatalia" id="menuNataliaID">        
+        <ul class="stickyy">
+            <li class="menuElement">
+              <a href="#aboutJump">ABOUT ME</a>
+            </li>
+            <li class="menuElement">
+              <a href="#worksJump">WORKS</a>
+            </li>
+            <li class="menuElement">
+              <a href="#contactJump">CONTACT ME</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="20000">
+                <img class="d-block w-100" src="pattern3.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item" data-bs-interval="20000">
+                <img class="d-block w-100" src="pattern1.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item" data-bs-interval="20000">
+                <img class="d-block w-100" src="pattern4.jpg" alt="Third slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div class="aboutme">
+        <div class="aboutmeIMG" id="aboutJump">
+            <img src="NatIO.png" alt="Natalia Stagno" id="NatIO">
+            <img src="io.PNG" alt="Natalia picture" id="IO">
+        </div>
+        <p id="IO2">
+            Hi! My name is Natalia and I am an illustrator.
+            I deal precisely with hand-made illustrations on paper,
+            I think this makes a drawing unique and elegant.
+            I believe in working together to create a whole that is greater than the sum of its parts.  
+            For more information about my experience, portfolio 
+            or how we can collaborate on an upcoming project, get in touch today.         
+        </p>
+    </div>
+
+    <div class="grid-container" id="worksJump">
+        <div class="grid-item imgOne"> <img src="leangelicheparete.jpg" alt="leangelicheparete" class="img-fluid"> </div>
+        <div class="grid-item txtOne"> 
+            <p> Project carried out in collaboration with
+            Mediterraneattitudine for Le Angeliche. <br/>
+            Floral pattern for wallpaper.</p> </div>
+        <div class="grid-item txtTwo"> 
+            <p> Project created for Spazio
+            Mediterraneattitudine. <br/>
+            Vases with Moors.</p></div>  
+        <div class="grid-item imgTwo"> <img src="vasi.JPG" alt="vasimediterraneaattitudine" class="img-fluid"> </div>
+        <div class="grid-item imgThree"> <img src="volpe8mockup3.jpg" alt="Volpe8" class="img-fluid"> </div>
+        <div class="grid-item txtThree"> 
+            <p> Project realized for Graphic Design3 exam,
+            Academy of Fine Arts of Palermo. <br/>
+            Volpe 8 by George Saunders.</p></div>  
+        <div class="grid-item txtFour"> 
+            <p> Project carried out for Packaging exam,
+            Academy of Fine Arts of Palermo.
+            Pattern created for the Nero D'Avola, dry Zibbibbo and Grillo wine labels.</p></div>
+        <div class="grid-item imgFour"> <img src="vini.JPG" alt="#" class="img-fluid"> </div> 
+    </div>
+        
+    <div class="contactMe contactgrid" id="contactJump">
+
+        <div class="end">
+            <h3 class="cooperate">If you want to cooperate <br/> with me...</h3>
+            <h1 class="getInTouch">GET IN <br/> TOUCH</h1>
+        </div>
+
+        <form class="containerContact">
+            <input type="text"   placeholder="Name">
+        
+            <input type="text"   placeholder="E-mail">
+
+            <input type="text"   placeholder="Telephone Number">
+
+            
+
+            <div id ="checkTerms" class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                    I have read and agree to 
+                    <a href="#" data-toggle="modal" data-target="#exampleModalLong" >
+                        Terms and Conditions
+                    </a>
+                </label>
+            </div>
+            
+            
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Terms and Conditions</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        By using Natalia Services, you agree to these conditions. Please read them carefully.
+We offer a wide range of Natalia Services, and sometimes additional terms may apply. When you use an Natalia Service (for example, Your Profile, Gift Cards, Natalia Video, Your Media Library, Natalia devices, or Natalia applications) you also will be subject to the guidelines, terms and agreements applicable to that Natalia Service ("Service Terms"). If these Conditions of Use are inconsistent with the Service Terms, those Service Terms will control.
+
+</br> </br>
+PRIVACY
+</br>
+Please review our Privacy Notice, which also governs your use of Natalia Services, to understand our practices.
+</br> </br>
+ELECTRONIC COMMUNICATIONS
+</br>
+When you use Natalia Services, or send e-mails, text messages, and other communications from your desktop or mobile device to us, you may be communicating with us electronically. You consent to receive communications from us electronically, such as e-mails, texts, mobile push notices, or notices and messages on this site or through the other Natalia Services, such as our Message Center, and you can retain copies of these communications for your records. You agree that all agreements, notices, disclosures, and other communications that we provide to you electronically satisfy any legal requirement that such communications be in writing.
+</br> </br>
+COPYRIGHT
+</br>
+All content included in or made available through any Natalia Service, such as text, graphics, logos, button icons, images, audio clips, digital downloads, data compilations, and software is the property of Natalia or its content suppliers and protected by United States and international copyright laws. The compilation of all content included in or made available through any Natalia Service is the exclusive property of Natalia and protected by U.S. and international copyright laws.
+</br> </br>
+TRADEMARKS
+</br>
+Click here to see a non-exhaustive list of Natalia trademarks. In addition, graphics, logos, page headers, button icons, scripts, and service names included in or made available through any Natalia Service are trademarks or trade dress of Natalia in the U.S. and other countries. Natalia's trademarks and trade dress may not be used in connection with any product or service that is not Natalia's, in any manner that is likely to cause confusion among customers, or in any manner that disparages or discredits Natalia. All other trademarks not owned by Natalia that appear in any Natalia Service are the property of their respective owners, who may or may not be affiliated with, connected to, or sponsored by Natalia.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            <textarea   placeholder="Message" style="height:200px"></textarea>
+        
+            <input type="submit" value="Send" class="Send">
+        </form>
+    </div>
+
+    <script>
+        
+        $(document).ready(function () {
+            $(document).on("scroll", onScroll);
+            
+            $('.Send').on('click', function (e) {
+                let checkStatus = document.getElementById("defaultCheck1").checked;
+                if (checkStatus){
+                    alert("Thanks for getting in contact. I'll reach out to you soon!");
+                }
+                else {
+                    alert("Please accept Terms and Conditions.");
+                }
+            });
+
+            $('a[href^="#"]').on('click', function (e) {
+                e.preventDefault();
+                $(document).off("scroll");
+                
+                $('.menuElement').each(function () {
+                    $(this).removeClass('activated');
+                })
+                $(this).addClass('activated');
+            
+                var target = this.hash,
+                    menu = target;
+                $target = $(target);
+                $('html, body').stop().animate({
+                    'scrollTop': $target.offset().top
+                }, 100, 'swing', function () {
+                    window.location.hash = target;
+                    $(document).on("scroll", onScroll);
+                });
+            });
+        });
+
+        function onScroll(event){
+            var scrollPos = $(document).scrollTop() + window.innerHeight / 2;
+            $('#menuNataliaID a').each(function () {
+                var currLink = $(this);
+                var refElement = $(currLink.attr("href"));
+                if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+                    $('#menuNataliaID ul li a').removeClass("activated");
+                    currLink.addClass("activated");
+                }
+                else{
+                    currLink.removeClass("activated");
+                }
+            });
+        }
+    </script>
+    <div class="copywriteText">
+        <p>©2021  Natalia Stagno  |  Illustrator</p>
+    </div>
+</body>
